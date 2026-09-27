@@ -1,0 +1,30 @@
+.cta{
+    padding: 72px;
+    background: var(--orange);
+    color: var(--white);
+}
+
+.cta-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cta h2{
+    max-width: 600px;
+    font-size: clamp(2.2rem, 4vw, 3.5rem);
+}
+
+.light-eyebrow{
+    color: #ffe4da;
+}
+
+.btn-light{
+    background: var(--white);
+    color: var(--navy);
+}
+
+.btn-light:hover{
+    background: var(--cream);
+}
