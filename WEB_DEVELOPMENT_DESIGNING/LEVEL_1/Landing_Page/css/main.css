@@ -3,6 +3,7 @@
 @import url("features.css");
 @import url("about.css");
 @import url("cta.css");
+@import url("footer.css");
 
 :root{
     --navay: #10283b;

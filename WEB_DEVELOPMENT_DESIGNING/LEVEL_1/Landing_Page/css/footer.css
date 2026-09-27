@@ -1,0 +1,27 @@
+footer{
+    padding: 25px 0;
+    background: var(--navy);
+    color: var(--white);
+}
+
+.footer-content{
+    min-height: 56px;
+    display: flex;
+    align-items: conter;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+footer p, .footer-links{
+    color: #bcc8cd;
+    font-size: 0.8rem;
+}
+
+.footer-links{
+    display: flex;
+    gap: 16px;
+}
+
+.footer-links a:hover{
+    color: var(--white);
+}
