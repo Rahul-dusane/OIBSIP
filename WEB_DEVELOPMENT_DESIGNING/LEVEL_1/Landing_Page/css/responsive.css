@@ -1,0 +1,147 @@
+/* Tablet & Medium Screens (max-width: 992px) */
+@media (max-width: 992px) {
+    .section-space {
+        padding: 90px 0;
+    }
+
+    .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-text {
+        margin: 20px auto 30px;
+    }
+
+    .hero-actions {
+        justify-content: center;
+    }
+
+    .hero-proof {
+        justify-content: center;
+    }
+
+    .dashboard-card {
+        max-width: 520px;
+        margin: 0 auto;
+        transform: rotate(0deg);
+        animation: none;
+    }
+
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .split-layout {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .split-layout h2 {
+        max-width: 100%;
+    }
+
+    .cta-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .cta h2 {
+        max-width: 100%;
+    }
+}
+
+/* Mobile & Small Screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .section-space {
+        padding: 70px 0;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-content {
+        min-height: 68px;
+    }
+
+    h1 {
+        font-size: clamp(2.4rem, 8vw, 3.4rem);
+    }
+
+    h2 {
+        font-size: clamp(1.9rem, 6vw, 2.6rem);
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Extra Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .container {
+        width: 92%;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        width: 100%;
+        gap: 16px;
+    }
+
+    .hero-actions .btn {
+        width: 100%;
+    }
+
+    .dashboard-card {
+        padding: 24px 20px;
+    }
+
+    .progress-bar {
+        width: 100%;
+    }
+
+    .progress-row {
+        gap: 12px;
+    }
+
+    .step {
+        grid-template-columns: 44px 1fr;
+        gap: 16px;
+        padding: 24px 12px;
+    }
+
+    .step > span {
+        width: 32px;
+        height: 32px;
+        font-size: 0.8rem;
+    }
+
+    .cta {
+        padding: 70px 0;
+    }
+
+    .cta .btn-light {
+        width: 100%;
+        text-align: center;
+    }
+}
