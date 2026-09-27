@@ -1,5 +1,6 @@
 @import url("navbar.css");
 @import url("hero.css");
+@import url("features.css");
 
 :root{
     --navay: #10283b;
